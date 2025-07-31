@@ -31,6 +31,6 @@ This repository helps me quickly start a project, maintain a uniform style and n
 If you too want to create your own set of standards - take inspiration from this template and customize it to fit you.
 
 ---
-Made with ☕ and 🍥 by [Leccon1](https://github.com/Leccon1)
+Сделано [Leccon1](https://github.com/Leccon1)
 
 Translated with DeepL.com (free version)
