@@ -6,21 +6,6 @@ This repository helps me quickly start a project, maintain a uniform style and n
 
 ---
 
-## 🗂️ Structure
-
-project-standards/
-│
-├──html/ # Markup and semantic standards
-├──scss/ # SCSS architecture, variables, mixins
-├──js/ # Rules for writing JS code, architecture
-├── assets/ # Structure for images and icons
-├── components/ # Component approach
-├── snippets/ # Useful snippets
-└── README.md
-
-
----
-
 ## 💡 What's inside?
 
 - 🧱 **HTML** - semantics, attribute order, indentation
