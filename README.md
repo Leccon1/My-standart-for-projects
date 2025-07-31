@@ -1,2 +1,9 @@
-# My-standards-for-projects
-Personal set of rules, agreements and templates for a quick start of frontend projects. HTML, SCSS, JS, structure, best practices and a little soul
+# 🧩 Project Standards by Leccon1
+
+My personal set of settings and approaches to developing frontend projects.
+
+This repository helps me quickly start a project, maintain a uniform style and not forget about important details.
+
+---
+
+## 🗂️ Structure
