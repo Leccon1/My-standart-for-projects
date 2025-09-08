@@ -34,3 +34,17 @@ If you too want to create your own set of standards - take inspiration from this
 Сделано [Leccon1](https://github.com/Leccon1)
 
 Translated with DeepL.com (free version)
+
+sass/
+    components //для отдельных блоков, там могут стили для тсраниц, блоков и тд
+    helpers/
+        _functions.scss
+        _index.scss
+        _media.scss
+        _mixin.scss
+    _base.scss
+    _fonts.scss
+    _normalized
+    _utilites
+    _var
+    main.scss
