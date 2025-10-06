@@ -1,50 +1,79 @@
-# 🧩 Project Standards by Leccon1
+# Project Standards by Leccon1
 
-My personal set of settings and approaches to developing frontend projects.
-
-This repository helps me quickly start a project, maintain a uniform style and not forget about important details.
-
----
-
-## 💡 What's inside?
-
-- 🧱 **HTML** - semantics, attribute order, indentation
-- 🎨 **SCSS** - structure, variables, mixins, helper.
-- 🧠 **JavaScript** - base file
-- 📦 **Project Structure** - how I organize folders and files
-- 🧩 **Components** - how I arrange reusable parts
-- ⚙️ **Vite config** - customization for my needs
+My personal set of configurations and approaches to frontend development.
+This repository allows me to start new projects quickly, maintain a consistent style, and avoid repeating setup steps.
 
 ---
 
-## 🔮 What for?
+## What's inside?
 
-- Quick start of a new project
-- Keeping a consistent style in development
-- Facilitate collaboration
-- Ability to reuse solutions
+* **SCSS** — complete structure with variables, mixins, functions, helpers, and BEM-based organization.
+* **JavaScript** — base file with ready-to-use structure for scripts.
+* **Project Structure** — organized by purpose: base styles, blocks, components, pages, and helpers.
+* **Vite Configuration** — optimized setup for my workflow (paths, aliases, build optimization).
+* **Stylelint Configuration** — automatic code-style checking for SCSS with custom rules.
+* **Git Integration** — project ready for version control, with `.gitignore` tuned for web projects.
+
+---
+
+## ⚙️ Why this exists
+
+* Fast setup for new projects
+* Unified and consistent code style
+* Better scalability and maintenance
+* Simplifies collaboration and onboarding
+* Reusability of patterns and best practices
 
 ---
 
-## 📬 Link
+## SCSS Structure
 
-If you too want to create your own set of standards - take inspiration from this template and customize it to fit you.
-
----
-Сделано [Leccon1](https://github.com/Leccon1)
-
-Translated with DeepL.com (free version)
-
+```
 sass/
-    components //для отдельных блоков, там могут стили для тсраниц, блоков и тд
+    base/
+        _base.scss
+        _fonts.scss
+        _normalized.scss
+        _utilities.scss
+    blocks/
+    components/
+    pages/
     helpers/
         _functions.scss
         _index.scss
         _media.scss
-        _mixin.scss
-    _base.scss
-    _fonts.scss
-    _normalized
-    _utilites
-    _var
+        _mixins.scss
+    _variables.scss
     main.scss
+```
+
+Each file has a clear purpose and follows naming conventions based on the BEM methodology.
+Components and blocks are separated for better modularity and maintainability.
+
+---
+
+## Linting and Code Quality
+
+The project uses **Stylelint** with custom rules to maintain consistent formatting and catch common mistakes early.
+For flexibility, certain rules (like `block-no-empty`) are disabled in specific folders where placeholder files are needed.
+
+---
+
+## Getting Started
+
+1. Clone or copy the repository.
+2. Run `npm install` to install dependencies.
+3. Use `npm run dev` to start development with Vite.
+4. Adjust variables, colors, and mixins to match your new project.
+
+---
+
+## Notes
+
+This setup reflects my personal workflow.
+You can freely modify configs and structure to match your own standards.
+If you want to create your own reusable frontend setup — take this as a base and evolve it further.
+
+---
+
+made by [Leccon1](https://github.com/Leccon1)
