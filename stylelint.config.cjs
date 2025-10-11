@@ -17,6 +17,10 @@ module.exports = {
 		'hue-degree-notation': null,
 		'declaration-empty-line-before': null,
 		'import-notation': null,
+		'rule-empty-line-before': null,
+		'block-no-empty': null,
+		'scss/double-slash-comment-empty-line-before': null,
+		'selector-class-pattern': null,
 	},
 	overrides: [
 		{
