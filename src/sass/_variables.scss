@@ -1,14 +1,14 @@
 // Цвета
-$color-blue: #0d6efd;
-$color-grey: #6c757d;
-$color-success: #198754;
-$color-danger: #dc3545;
-$color-warning: #ffc107;
-$color-info: #0dcaf0;
-$color-light: #f8f9fa;
-$color-dark: #212529;
-$color-white: #ffffff;
-$color-black: #000000;
+$color-blue: hsl(195, 88%, 59%);
+$color-grey: hsl(225, 22%, 45%);
+$color-success: hsl(140, 55%, 35%);
+$color-danger: hsl(0, 75%, 40%);
+$color-warning: hsl(45, 100%, 50%);
+$color-info: hsl(180, 75%, 40%);
+$color-light: hsl(0, 0%, 97%);
+$color-dark: hsl(0, 0%, 13%);
+$color-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
 
 // Шрифты
 $font-family-base: 'Inter', sans-serif;
@@ -46,7 +46,7 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
-$breakpoint-xxl: 1400px;
+$breakpoint-xxl: 1440px;
 
 // Переходы
 $transition-fast: 0.2s ease-in-out;

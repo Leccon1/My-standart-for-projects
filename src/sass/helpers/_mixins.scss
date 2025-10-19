@@ -1,3 +1,5 @@
+@use '../variables' as *;
+
 @mixin square($size) {
 	width: $size;
 	height: $size;
@@ -6,4 +8,40 @@
 @mixin rectangle($width, $height) {
 	width: $width;
 	height: $height;
+}
+
+@mixin underline($color: white) {
+	@include mobile-above {
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			width: 0;
+			height: $border-width;
+			background-color: $color-white;
+			transform: translateX(-50%);
+			transition: width $transition-fast;
+		}
+		@include hover {
+			&::after {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@mixin hover-zone($inset-size) {
+	&::before {
+		content: ' ';
+		position: absolute;
+		inset: $inset-size;
+	}
+}
+
+@mixin hover-color($color) {
+	transition: color $transition-fast;
+	&:hover {
+		color: $color;
+	}
 }

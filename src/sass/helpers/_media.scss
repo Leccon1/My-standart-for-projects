@@ -3,6 +3,18 @@ $tablet: 1023.98px;
 $mobile: 767.98px;
 $mobile-s: 480.98px;
 
+@mixin breakpoint($width) {
+	@media (width <= $width) {
+		@content;
+	}
+}
+
+@mixin breakpoint-above($width) {
+	@media (width > $width) {
+		@content;
+	}
+}
+
 @mixin laptop {
 	@media (width <= $laptop) {
 		@content;
