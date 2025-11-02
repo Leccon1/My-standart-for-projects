@@ -34,5 +34,10 @@
     "stylelint-scss": "^6.12.1",
     "vite": "^7.0.4",
     "vite-plugin-checker": "^0.11.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
