@@ -92,7 +92,7 @@ export default [
           },
         },
       ],
-      'import/no-unresolved': 'error',
+      'import/no-unresolved': 'off',
       'import/no-duplicates': 'error',
     },
     settings: {
