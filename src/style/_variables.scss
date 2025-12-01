@@ -12,6 +12,12 @@ $color-dark: hsl(0, 0%, 13%);
 $color-white: hsl(0, 0%, 100%);
 $color-black: hsl(0, 0%, 0%);
 
+$color-background: $color-blue;
+$color-background-dark: $color-dark;
+
+$color-text: $color-grey;
+$color-text-dark: $color-grey;
+
 // Шрифты
 $font-family-base: 'Inter', sans-serif;
 $font-size-base: rem(16);
@@ -23,11 +29,10 @@ $font-weight-medium: 500;
 $font-weight-bold: 700;
 
 // Отступы
-$spacing-xs: 0.25rem;
-$spacing-sm: 0.5rem;
-$spacing-md: 1rem;
-$spacing-lg: 1.5rem;
-$spacing-xl: 2rem;
+$spacing-sm: rem(8);
+$spacing-md: rem(12);
+$spacing-lg: rem(16);
+$spacing-xl: rem(32);
 
 // Радиусы и бордеры
 $border-radius-sm: rem(4);
