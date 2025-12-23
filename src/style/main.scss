@@ -1,5 +1,8 @@
 @use './helpers/' as *;
 
+@use './setting/themes';
+@use './setting/tokens';
+
 @use './base/base';
 @use './base/fonts';
 @use './base/normalized';

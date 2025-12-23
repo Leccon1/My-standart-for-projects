@@ -1,0 +1,10 @@
+@use './variables' as *;
+@use '../helpers' as *;
+
+:root {
+  @include theme-vars($colors-dark);
+}
+
+.light-theme {
+  @include theme-vars($colors-light);
+}

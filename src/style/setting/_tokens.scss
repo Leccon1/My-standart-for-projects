@@ -1,0 +1,14 @@
+@use './variables' as *;
+@use '../helpers' as *;
+
+:root {
+  @include theme-vars($fonts);
+  @include theme-vars($font-sizes);
+  @include theme-vars($font-weights);
+  @include theme-vars($spacing);
+  @include theme-vars($radius);
+  @include theme-vars($shadows);
+  @include theme-vars($container-max-width);
+  @include theme-vars($transitions);
+  @include theme-vars($z-index);
+}
