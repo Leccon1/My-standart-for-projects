@@ -1,0 +1,57 @@
+@use '../helpers/functions/' as *;
+
+// -- Based Variables -- //
+
+$font-sizes: (
+  font-sizes-sm: fluid(12, 14),
+  font-sizes-base: fluid(14, 16),
+  font-sizes-md: fluid(16, 22),
+  font-sizes-lg: fluid(20, 28),
+  font-sizes-xl: fluid(28, 40),
+  font-sizes-2xl: fluid(40, 56),
+  font-sizes-3xl: fluid(56, 72),
+  font-sizes-4xl: fluid(72, 88),
+  font-sizes-5xl: fluid(88, 104),
+  font-sizes-6xl: fluid(104, 120),
+);
+
+$spacing: (
+  spacing-sm: rem(8),
+  spacing-md: rem(12),
+  spacing-lg: rem(16),
+  spacing-xl: rem(32),
+  spacing-2xl: rem(48),
+  spacing-3xl: rem(64),
+  spacing-4xl: rem(80),
+  spacing-5xl: rem(96),
+  spacing-6xl: rem(112),
+  spacing-7xl: rem(128),
+  spacing-8xl: rem(144),
+);
+
+$letter-spacing: (
+  letter-spacing-xs: rem(-2),
+  letter-spacing-sm: rem(-1.5),
+  letter-spacing-md: rem(-1),
+  letter-spacing-lg: rem(0),
+  letter-spacing-xl: rem(4),
+  letter-spacing-2xl: rem(6),
+);
+
+$radius: (
+  radius-sm: rem(4),
+  radius-md: rem(8),
+  radius-lg: rem(16),
+  radius-xl: rem(32),
+  radius-2xl: rem(64),
+  radius-circle: 50%,
+);
+
+$container-max-width: (
+  container-max-width-sm: rem(540),
+  container-max-width-md: rem(720),
+  container-max-width-lg: rem(960),
+  container-max-width-xl: rem(1200),
+  container-max-width-xxl: rem(1400),
+  container-max-width-xxxl: rem(1600),
+);
