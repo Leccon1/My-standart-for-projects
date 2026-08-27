@@ -1,8 +1,7 @@
-@use '../variables' as *;
 @use '../helpers/' as *;
 
 html {
-	font-size: 62.5%; /* 1rem = 10px */
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }

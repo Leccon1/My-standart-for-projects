@@ -1,5 +1,6 @@
 @use './variables' as *;
 @use '../helpers' as *;
+@use './derived-variables' as *;
 
 :root {
   @include theme-vars($fonts);
